@@ -2,7 +2,7 @@
 
 PHPTMAPI 3 is the succession project of http://phptmapi.sourceforge.net/ 
 
-PHPTMAPI is a PHP5 API for creating and manipulating topic maps, based on the TMAPI project.
+PHPTMAPI is a PHP 5.3 API for creating and manipulating topic maps, based on the http://tmapi.sourceforge.net/ project.
 This API enables PHP developers an easy and standardized implementation of ISO/IEC 13250 Topic Maps in their applications.
 
 ##What is TMAPI?
