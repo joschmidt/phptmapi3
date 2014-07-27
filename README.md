@@ -9,4 +9,4 @@ This API enables PHP developers an easy and standardized implementation of ISO/I
 
 TMAPI is a programming interface for accessing and manipulating data held in a topic map. The TMAPI specification defines a set of core interfaces which must be implemented by a compliant application as well as (eventually) a set of additional interfaces which may be implemented by a compliant application or which may be built upon the core interfaces. 
 
-Notice: Code has not been comitted yet. 
+Todo: Add documentation. 
