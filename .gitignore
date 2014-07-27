@@ -1,6 +1,8 @@
 .buildpath
 .project
 .settings/
+tests
 vendor
 composer.phar
 example.php
+phpunit.xml.dist
