@@ -72,11 +72,11 @@ interface ConstructInterface
      * 
      * @param string The item identifier to be added; must not be <var>null</var>.
      * @return void
-     * @throws {@link IdentityConstraintException} If another construct has an 
+     * @throws {@link IdentityConstraintException} If another construct has an
      * 				item identifier which is equal to <var>$itemIdentifier</var>.
-     * @throws {@link ModelConstraintException} If the item identifier is 
+     * @throws {@link ModelConstraintException} If the item identifier is
      * 				<var>null</var>.
-    */
+     */
     public function addItemIdentifier($itemIdentifier);
 
     /**
