@@ -1,5 +1,5 @@
 {
-    "name": "phptmapi3",
+    "name": "phptmapi3/phptmapi3",
     "description": "PHPTMAPI is a PHP5 API for creating and manipulating topic maps, based on the TMAPI project.",
     "keywords": ["Topic Maps", "Semantic Web"],
     "homepage": "https://github.com/joschmidt/phptmapi3",
