@@ -23,7 +23,7 @@ namespace Phptmapi3\Index;
  * @package index
  * @author Johannes Schmidt <phptmapi-discuss@lists.sourceforge.net>
  */
-interface ScopedIndexInterface extends IndexInterface
+interface ScopedIndexInterface extends \Phptmapi3\Index\IndexInterface
 {
     /**
      * Returns the {@link AssociationInterface}s in the topic map whose scope 

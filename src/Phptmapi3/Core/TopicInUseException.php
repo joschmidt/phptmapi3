@@ -20,7 +20,7 @@ namespace Phptmapi3\Core;
  * @package core
  * @author Johannes Schmidt <phptmapi-discuss@lists.sourceforge.net>
  */
-class TopicInUseException extends ModelConstraintException
+class TopicInUseException extends \Phptmapi3\Core\ModelConstraintException
 {
     /**
      * Constructor.

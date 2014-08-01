@@ -19,7 +19,7 @@ namespace Phptmapi3\Index;
  * @package index
  * @author Johannes Schmidt <phptmapi-discuss@lists.sourceforge.net>
  */
-interface LiteralIndexInterface extends IndexInterface
+interface LiteralIndexInterface extends \Phptmapi3\Index\IndexInterface
 {
     /**
      * Retrieves the topic names in the topic map which have a value equal to

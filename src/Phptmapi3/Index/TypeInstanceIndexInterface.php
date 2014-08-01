@@ -26,7 +26,7 @@ namespace Phptmapi3\Index;
  * @package index
  * @author Johannes Schmidt <phptmapi-discuss@lists.sourceforge.net>
  */
-interface TypeInstanceIndexInterface extends IndexInterface
+interface TypeInstanceIndexInterface extends \Phptmapi3\Index\IndexInterface
 {
     /**
      * Returns the topics in the topic map whose type property equals one of those 
