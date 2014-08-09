@@ -19,7 +19,7 @@ TMAPI is a programming interface for accessing and manipulating data held in a t
 
 Use [composer](https://getcomposer.org/) and get autoloading for free.
 
-Create a `composer.json` for your project:
+Create a `composer.json` file for your project:
 
 ```JSON
 {
@@ -39,6 +39,31 @@ Add the autoloader, and you will have access to Phptmapi3:
 <?php
 require 'vendor/autoload.php';
 ```
+Create your implementation of PHPTMAPI. Add the namespace and class name of your implementation of  `TopicMapSystemFactory` in `Phptmapi3\config.php`. Example: `\Foo\Core\TopicMapSystemFactoryImpl`.
+
+Add your namespace to `composer.json`. Example:
+
+```JSON
+{
+    "require": {
+        "phptmapi3/phptmapi3": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Foo\\": "src/"
+        }
+    }
+}
+```
+Finally, create an instance of your implementation of `TopicMapSystemFactory`:
+
+```php
+<?php
+require 'vendor/autoload.php';
+
+$topicMapSystemFactory = \Phptmapi3\Core\TopicMapSystemFactory::newInstance();
+```
+
 
 ## Documentation
 
