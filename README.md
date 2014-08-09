@@ -28,6 +28,17 @@ Create a `composer.json` for your project:
     }
 }
 ```
+Run these two commands to install it:
+
+    $ curl -s http://getcomposer.org/installer | php
+    $ php composer.phar install
+
+Add the autoloader, and you will have access to Phptmapi3:
+
+```php
+<?php
+require 'vendor/autoload.php';
+```
 
 ## Documentation
 
