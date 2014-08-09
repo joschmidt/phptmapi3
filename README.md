@@ -39,7 +39,23 @@ Add the autoloader, and you will have access to Phptmapi3:
 <?php
 require 'vendor/autoload.php';
 ```
-Create your implementation of PHPTMAPI. Add the namespace and class name of your implementation of  `TopicMapSystemFactory` in `Phptmapi3\config.php`. Example: `\Foo\Core\TopicMapSystemFactoryImpl`.
+Create your implementation of PHPTMAPI. Add the namespace and class name of your implementation of  `TopicMapSystemFactory` in `Phptmapi3\config.php`. Example:
+```php
+<?php
+
+/*
+ * PHPTMAPI is hereby released into the public domain; 
+ * and comes with NO WARRANTY.
+ * 
+ * No one owns PHPTMAPI: you may use it freely in both commercial and
+ * non-commercial applications, bundle it with your software
+ * distribution, include it on a CD-ROM, list the source code in a
+ * book, mirror the documentation at your own web site, or use it in
+ * any other way you see fit.
+ */
+
+$factoryImplementation = '\Foo\Core\TopicMapSystemFactoryImpl';
+```
 
 Add your namespace to `composer.json`. Example:
 
