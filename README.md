@@ -39,7 +39,7 @@ Add the autoloader and you will have access to Phptmapi3:
 <?php
 require 'vendor/autoload.php';
 ```
-Create your implementation of PHPTMAPI. Add the namespace and class name of your implementation of  `TopicMapSystemFactory` in `Phptmapi3\config.php`. Example:
+Create your implementation of PHPTMAPI. Add the namespace and class name of your implementation of  `TopicMapSystemFactory` in `Phptmapi3/config.php`. Example:
 ```php
 <?php
 
