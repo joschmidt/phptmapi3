@@ -77,7 +77,11 @@ Finally, create an instance of your implementation of `TopicMapSystemFactory`:
 <?php
 require 'vendor/autoload.php';
 
-$topicMapSystemFactory = \Phptmapi3\Core\TopicMapSystemFactory::newInstance();
+try {
+    $topicMapSystemFactory = \Phptmapi3\Core\TopicMapSystemFactory::newInstance();
+} catch (\Phptmapi3\Core\FactoryConfigurationException $e) {
+    print $e->getMessage();
+}
 ```
 
 ## Documentation
