@@ -79,6 +79,7 @@ require 'vendor/autoload.php';
 
 try {
     $topicMapSystemFactory = \Phptmapi3\Core\TopicMapSystemFactory::newInstance();
+    // create a topic map system, then topic maps, topics, etc.
 } catch (\Phptmapi3\Core\FactoryConfigurationException $e) {
     print $e->getMessage();
 }
