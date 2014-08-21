@@ -89,7 +89,7 @@ try {
 
 Read a paper about TMAPI 2.0: http://tmra.de/2008/talks/tmapi-2.html
 
-Generate a documentation e.g. using http://phpdoc.org/ or have a look at http://phptmapi.sourceforge.net/2.1/docs/ which is still valid on API level.
+Generate an API documentation e.g. using http://phpdoc.org/ or have a look at http://phptmapi.sourceforge.net/2.1/docs/ which is still valid on API level.
 
 ## License
 
